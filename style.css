@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    border:border-box;
+
+}
+body{
+    width:100vw;
+    height: 100vh;
+}
+.main{
+    height: 70%;
+    width:100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    width: 65%;
+   /* margin:3px;*/
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+   margin-left: 5rem;
+  
+    
+}
+.left h2{
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 700;
+    color: #282828;
+  
+}
+.left p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: #484848;
+}
+.left h4 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 2rem;
+    text-align: left;
+    color: #282828;
+  
+  }
+.right{
+    width:45%;
+}
+img{
+    padding-left: 80px;
+}
+.footer{
+    height:30%;
+    width:100%;
+    background-color: black;
+}
+.form{
+    display:flex;
+    gap:0.5rem;
+   
+    align-items: center;
+  }
+
+.form input{
+    height:3rem;
+    width:13.5rem;
+    border-radius:0.5rem;
+    background-color:white;
+    border:border-box;
+    padding-left: 0.6rem;
+    border:0.2rem solid black;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+
+}
+.form button{
+    height:3.5rem;
+    width:13.5rem;
+    border-radius:0.5rem;
+    padding:0.6rem;
+    color: #FFF;
+    background-color: #000;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 700;
+  
+    
+}
+.white{
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    padding-left: 1.8rem;
+    color: #fff;
+}
+.right img{
+    width: 18.75rem;
+    height:18.75rem;
+
+}
+.footer {
+    background-color: #282828;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  .footer-right {
+    text-align: right;
+  }
+  li img{
+    color: #FFCD9E;
+  }
+  
